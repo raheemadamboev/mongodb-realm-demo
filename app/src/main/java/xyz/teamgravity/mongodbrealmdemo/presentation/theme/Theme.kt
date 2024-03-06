@@ -1,4 +1,4 @@
-package xyz.teamgravity.mongodbrealmdemo.ui.theme
+package xyz.teamgravity.mongodbrealmdemo.presentation.theme
 
 import android.app.Activity
 import android.os.Build
