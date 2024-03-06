@@ -1,6 +1,9 @@
 plugins {
     alias(libs.plugins.android)
     alias(libs.plugins.kotlin)
+    alias(libs.plugins.ksp)
+    alias(libs.plugins.hilt)
+    alias(libs.plugins.realm)
 }
 
 android {
@@ -66,6 +69,26 @@ dependencies {
     // compose lifecycle
     implementation(libs.compose.lifecycle)
 
+    // compose viewmodel
+    implementation(libs.compose.viewmodel)
+
+    // compose hilt
+    implementation(libs.compose.hilt)
+
     // core
     implementation(libs.core)
+
+    // collections
+    implementation(libs.collections)
+
+    // hilt
+    implementation(libs.hilt)
+    ksp(libs.dagger.compiler)
+
+    // coroutines
+    implementation(libs.coroutines)
+    implementation(libs.coroutines.android)
+
+    // realm
+    implementation(libs.realm)
 }
