@@ -2,7 +2,7 @@
 
 <img align="right" width="296" height="600"  src="https://github.com/raheemadamboev/mongodb-realm-demo/blob/main/banner.gif" />
 
-A simple app that demonstrates using and making relationship on MongoDB Realm NoSQL database.
+A simple app that demonstrates using and making relationships on MongoDB Realm NoSQL database.
 
 **MongoDB Realm Demo**
 
